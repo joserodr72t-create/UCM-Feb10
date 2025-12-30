@@ -1,6 +1,0 @@
-gcloud compute firewall-rules create allow-tcp-3000 \
-  --network=default \
-  --direction=INGRESS \
-  --action=ALLOW \
-  --rules=tcp:3000 \
-  --source-ranges=0.0.0.0/0
